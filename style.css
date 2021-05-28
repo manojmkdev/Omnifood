@@ -46,13 +46,14 @@
 
 /*----Html-----*/
 
-html{
+html,body{
     font-family: 'Lato',sans-serif;
     font-weight: 100;
     font-weight: lighter;
     font-size: 15px;
     color:rgb(241, 236, 236);
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix{zoom: 1}
@@ -233,8 +234,8 @@ a:visited{
     color:#e67e22;
     text-decoration: none;
     padding-bottom: 2px;
-    border-bottom: 1px solid #e67e22;
-    transition: border-bottom 0.3s,color 0.3s;
+    
+    transition:color 0.3s;
 }
 a.btn-app:link,
 a.btn-app:visited{
@@ -356,15 +357,17 @@ cite{
 .price{
     background-color: #f4f4f4;
     margin-top: 50px;
-    width: auto;
+    width: 125%;
     height:600px;
     margin-bottom: 50px;
+}
+.price h2{
+    float: left;
+    margin-left: 15%;
 }
 .plan-box{
     background-color: #fff;
     border-radius: 2px;
-    margin-bottom: 40px;
-   margin-left: 80px;
    box-shadow: 0 2px 2px #efefef;
    
 }
@@ -397,4 +400,31 @@ cite{
 }
 .plan-box ul br{
     padding: 15px 0px;
+}
+
+/*----footer----*/
+footer{
+    background-color: #333;
+        height: 150px;
+}
+.footer-nav{
+    float: left;
+    list-style: none;
+    padding-left: 20px;
+}
+.social-links{
+    float: right;
+    
+}
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right:20px;
+}
+footer div p{
+    text-align: center;
+}
+.btn-icon{
+    float: right;
+    
 }

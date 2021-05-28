@@ -1,0 +1,101 @@
+
+
+/*big phn to (width 1200px) : from 1023 to 1200px*/
+@media only screen and (max-width:1200px){
+    .hero-text{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{padding: 0 2%;}
+}
+
+
+/* ipad potrait to landscape : from 768 to 1023px */
+@media only screen and (max-width:1023px){
+        body{font-size: 18px;}
+        section{padding: 60px 0;}
+        .long-copy{width: 80%; margin-left: 10%;}
+        .steps-box{margin-top: 10px;}
+        .steps-box:last-child{margin-top: 10px;}
+        .works-steps{margin-bottom: 60px;}
+        .works-steps:last-of-type{margin-bottom: 60px;}
+        .app-screen{width: 50%;}
+        
+        .section-form h2{font-size: 140%;}
+        .plan-box{width:100%; margin-left: 0%;}
+        .plan-price{font-size:220%;}
+        .plan-box div ul{font-size: 80%;}
+        .plan-price span{font-size: 40%;}
+        .contact-form{width: 90%;}
+        .price h2{font-size: 160%; float: left; margin-left: 20%;}
+        .price{width: 120%;}
+    }
+
+
+/*small phn to ipad: from 480px to 768px */
+@media only screen and (max-width:768px){
+    body{ font-size:16px ;}
+    section{ padding: 30px 0 ;}
+    .long-copy{width: 100%; margin-left: 0%;font-size: 17px;}
+    h1{font-size: 180%;}
+    h2{font-size: 130%;}
+    h3{font-size: 14px;}
+    .logo {height: 90px;width: auto;float: left;margin-top: 30px;
+    margin-left: 20px;
+    }
+    .customer .col {
+        display: block;
+        float: left;
+        margin: 1% 0 1% 7%;
+    }
+    cite {
+        margin-left: 5px;
+        font-size: 100%;
+    }
+    .city-features {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    blockquote{font-size: 16px;}
+    .customer-img{height: 60px;}
+    .price{height: 500px;}
+    .price h2 {
+        font-size: 140%;
+        float: left;
+        margin-left: 15%;
+    }
+    .works-step{margin-bottom: 20px;font-size: 15px;margin: 25px;}
+    .works-step:last-of-type{margin-bottom: 20px;}
+    .btn-app img{height: 35px;}
+    footer div p {margin-top: 80px;}
+    footer .span-1-of-2 {width: 50%;font-size: 13px;}
+}
+
+/*small phn : from 0 to 480px*/
+@media only screen and (max-width:480px){
+    body{ font-size:16px ;}
+    section{ padding: 30px 0 ;}
+
+    .long-copy{width: 100%; margin-left: 0%;}
+
+    .row,.hero-text{padding: 0% 4%;}
+    .col{width:100%;margin: 0% 0% 4% 0%;}
+    
+    .main-nav{ display: none;}
+
+    h1{font-size: 180%;}
+    h2{font-size: 130%;}
+
+    .works-step div{height: 40px;width: 40px;margin-right:15px ;padding: 4px;}
+    .works-step{margin-bottom: 20px;}
+    .works-step:last-of-type{margin-bottom: 20px;}
+
+    .customer-img{margin-bottom: 20px;}
+
+    .price h2{font-size: 120%;float: left; margin-left: 30px;}
+    .price .col{width: 75%; margin: 0% 0% 4% 4%;}
+    .price{ height: 1125px;}
+    .logo {height: 80px;width: auto;float: left;margin-top: 30px;margin-left: 10px;}
+    .app-screen {width: 45%;float: left;margin-bottom: 10px; margin-left: 30%;}
+    .contact-form .col {width: 45%;margin: 0% 0% 5% 2%;}
+}
