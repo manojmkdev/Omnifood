@@ -1,6 +1,14 @@
 $(document).ready(function() {
- $('H1').click(function(){
-    $(this).css('background-color', '#f4f4f4');
- })
+   
+   $('.js--section-features').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+      offset: '60px;'
+    });
+    
 
 });
