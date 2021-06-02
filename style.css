@@ -106,7 +106,7 @@ nav .mainMenu .closeMenu , .icons i {
 
 @media(max-width: 700px){
     nav .mainMenu {
-        height: 40vh;
+        height: 30vh;
         position: fixed;
         top: 0;
         right: 0;
