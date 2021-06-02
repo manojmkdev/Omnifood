@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="queries.css">
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <title>OMNIFOOD</title>
 </head>
 <body>
@@ -18,13 +20,15 @@
     <nav>
         <img class="logo" src="logo-white.png">
         <img class="logo-black" src="logo.png">
-        <div class="main-nav">
-            <ul>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <div class="mainMenu">
+        <ul >
                 <li><a href="#">Food delivery</a></li>
                 <li><a href="#">How its Work</a></li>
                 <li><a href="#">Our Cities</a></li>
                 <li><a href="#">Sign up</a></li>
-            </ul>
+        </ul>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
         </div>
     </nav>
     <div class="hero-text">
@@ -351,6 +355,7 @@
 <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
 <script src="jquery.waypoints.min.js"></script>
 <script src="script.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
 

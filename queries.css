@@ -95,12 +95,20 @@
     .price h2{font-size: 120%;float: left; margin-left: 30px;}
     .price .col{width: 75%; margin: 0% 0% 4% 4%;}
     .price{ height: 1125px;}
-    .logo {height: 80px;width: auto;float: left;margin-top: 30px;margin-left: 10px;}
+    .logo {height: 70px;width: auto;float: left;margin-top: 10px;margin-left: 10px;}
     .app-screen {width: 45%;float: left;margin-bottom: 10px; margin-left: 30%;}
     .contact-form .col {width: 45%;margin: 0% 0% 5% 2%;}
     .footer-nav li, .social-links li {
         display: inline-block;
         margin-right: 10px;
         margin-top: 10px;
+    }
+    .mainMenu li {
+        display: block;
+        margin-top: 6px;
+        word-spacing: 4px;
+    }
+    .sticky {
+        display: none;
     }
 }
