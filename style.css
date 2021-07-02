@@ -5,6 +5,9 @@
     padding: 0pt;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /*----Logo----*/
 
@@ -22,6 +25,7 @@
     float: left;
     margin-top: 5px;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 /*----Nav----*/
@@ -75,7 +79,7 @@
 /*---Ham option---*/
 nav {
     
-    color: #fff;
+    color: #555;
     display: flex;
     justify-content: space-between;
 }
